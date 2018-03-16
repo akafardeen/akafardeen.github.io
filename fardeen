@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+      color: red;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    body{
+	    background: url(https://media.giphy.com/media/12cXxl65LdZLB6/giphy.gif);
+	    color: red;
+	    font-family: 'Rammetto One', cursive;
+	    
+    }
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} +
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4> Fardeen Rahman</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="https://www.google.com/search?safe=strict&biw=1355&bih=857&tbm=isch&sa=1&ei=jcyWWrnGFY60gge9-bugCQ&q=friends+photo&oq=friends+p&gs_l=psy-ab.3.0.0i67k1j0l9.31554.35656.0.36487.6.6.0.0.0.0.313.1119.0j2j2j1.5.0....0...1c.1.64.psy-ab..1.5.1118...0i10i67k1.0.Fo-dbRgFoc8#imgrc=cz3oi9orCppKBM:">FRIENDS</a></li>
+        <li><a href="https://www.google.com/search?safe=strict&biw=1355&bih=857&tbm=isch&sa=1&ei=gMyWWt6tN-S1ggfzhbqICQ&q=family+photo&oq=family+p&gs_l=psy-ab.3.1.0l10.7283.8961.0.11016.8.8.0.0.0.0.495.1021.2-2j0j1.3.0....0...1c.1.64.psy-ab..5.3.1020...0i67k1.0.2NC9gDXe0aM#imgrc=yzBbYAZmyjNdBM:">FAMILY</a></li>
+        <li><a href="https://www.google.com/search?q=nba+photos&safe=strict&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiK_K7t98jZAhWlzVkKHWvSCc8Q_AUICigB&biw=1355&bih=857#imgrc=LVxh-Ml_7KpocM:">TEAM PHOTOS</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>I Love basketball</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 20, 2018.</h5>
+      <h5><span class="label label-danger">Sports</span> <span class="label label-primary">NBA</span></h5><br>
+      <p>My passion is basketball.I was 12 when i started to play ball.I play for the NEW YORK KNICKS.My jersey number is 3.im the leading point guard for the team.Last month i had triple double.My contract is ending this month and im gonna me in a free agency,really gonna miss this team had alot of W & L.
+            </p>
+      <br><br>
+      
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>New Team</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by John Doe, Oct 20, 2018.</h5>
+      <h5><span class="label label-success">Lorem</span></h5><br>
+      <p>I got picked by the Timerwolfs.The new coach is showing me better moves to use in games and drills.Working really hard to win this year & be the MVP.Made alot a of friends.Droped 27 points and took the W.Me and lebron had a fight last night in the game.</p>
+      <hr>
+
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="https://s3.amazonaws.com/37assets/svn/1065-IMG_2529.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>akarohan <small>Oct 27, 2018, 9:12 PM</small></h4>
+          <p>Keep up the GREAT work! I am cheering for you!!.i want to your game.</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/mob5tertv-profile_image-695ed5e0a42064bb-300x300.png" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>brian<small>Oct 29, 2018, 8:25 PM</small></h4>
+          <p>I am so happy for you man! Finally. I am looking forward to be you in life.Your shoes are really good.</p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="https://pa1.narvii.com/6628/0e8ecd936eab417cacc9334e4c4e77a67ce6031b_hq.gif" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>jake<small>Oct 30, 2018, 10:28 PM</small></h4>
+              <p>Me too! WOW!</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
+
